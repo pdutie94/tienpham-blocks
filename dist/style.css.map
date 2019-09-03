@@ -1,0 +1,1 @@
+{"version":3,"file":"style.css","sources":["webpack:///./src/blocks/secondblock/style.scss"],"sourcesContent":[".wp-block-tienpham-blocks-secondblock {\n  background-color: #524d5b;\n  color: #fff;\n  border-radius: 5px;\n  padding: 20px; }\n"],"mappings":"AAAA;AACA;AACA;AACA;AACA;;","sourceRoot":""}
