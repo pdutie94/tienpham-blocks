@@ -31,7 +31,7 @@ function tienpham_blocks_register() {
     wp_register_script( 
         'tienpham-blocks-editor-script', 
         plugins_url('dist/editor.js', __FILE__),
-        array('wp-blocks', 'wp-i18n', 'wp-element', 'wp-editor', 'wp-components')
+        array('wp-blocks', 'wp-i18n', 'wp-element', 'wp-editor', 'wp-components', 'wp-api-fetch')
     );
     wp_register_script( 
         'tienpham-blocks-script', 
@@ -48,9 +48,7 @@ function tienpham_blocks_register() {
         'tienpham-blocks-style', 
         plugins_url('dist/style.css', __FILE__)
     );
-    
-    tienpham_blocks_regitser_block_type('firstblock');
-    tienpham_blocks_regitser_block_type('secondblock');
+    tienpham_blocks_regitser_block_type('recent-authors');
 }
 
 add_action('init', 'tienpham_blocks_register');

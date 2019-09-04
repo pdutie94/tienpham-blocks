@@ -24,6 +24,7 @@
     "@wordpress/browserslist-config": "^2.6.0",
     "@wordpress/components": "^8.1.0",
     "@wordpress/editor": "^9.5.0",
+    "@wordpress/element": "^2.7.0",
     "autoprefixer": "^9.6.1",
     "babel-loader": "^8.0.6",
     "browserslist": "^4.6.6",
